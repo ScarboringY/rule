@@ -81,6 +81,7 @@
       {"rule_set": "geosite-binance", "outbound": "Wallet"},
       {"rule_set": "geosite-okx", "outbound": "Wallet"},
       {"rule_set": "geosite-category-cryptocurrency", "outbound": "Wallet"},
+      {"domain_suffix": ["steamcommunity.com", "store.steampowered.com"], "outbound": "日本手动"},
       {"rule_set": "geosite-steam@cn", "outbound": "直连"},
       {"rule_set": "geosite-steam", "outbound": "Steam"},
       {"rule_set": "geosite-geolocation-!cn", "outbound": "默认代理"},
